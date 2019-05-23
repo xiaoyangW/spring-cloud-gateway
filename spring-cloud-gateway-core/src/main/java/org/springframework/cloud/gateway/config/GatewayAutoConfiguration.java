@@ -137,6 +137,9 @@ import static org.springframework.cloud.gateway.config.HttpClientProperties.Pool
 
 /**
  * @author Spencer Gibb
+ *
+ * 初始化
+ *
  */
 @Configuration
 @ConditionalOnProperty(name = "spring.cloud.gateway.enabled", matchIfMissing = true)
